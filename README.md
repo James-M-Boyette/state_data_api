@@ -15,7 +15,7 @@ I was provided two CSV files. The `state_data.csv` file contained the primary da
 
 I was offered the option to move the data from the CSV files into a database, but was required to show the script I used to do so. I accomplished this by 1) moving the .csv's to folder within the app, and 2) ran logic from the seeds file.
 
-Note: up to this point, I was unable to determine why the first column of the .csv's was not returning data when I used k:v pairs. So, I instead stored the column data in a seperate variable, and itterated through it as the .each loop ran.
+Note: up to this point, I have been unable to determine why the first column of the .csvs are not returning data when I use k:v pairs. My temporary fix has been to store the column data in a seperate variable, and itterate through it as the .each loop runs (if/when re-seeding).
 
 ## The API
 
