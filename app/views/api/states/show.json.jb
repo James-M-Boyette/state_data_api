@@ -1,0 +1,7 @@
+{
+  message: "... Are definitely going to need some tollbooth money",
+  id: @state.id,
+  state: @state.state,
+  abbrev: @state.abbrev,
+  code: @state.code,
+}
