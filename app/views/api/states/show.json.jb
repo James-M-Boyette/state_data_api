@@ -1,7 +1,16 @@
 {
-  message: "... Are definitely going to need some tollbooth money",
+  # message: "... Are definitely going to need some tollbooth money",
+  message: "Here's the state Abbreviations Table data:",
+  # id: @state_code.id,
+  # state: @state_code.state,
+  # abbrev: @state_code.abbrev,
+  # code: @state_code.code,
+
+  message: "Here's the State Data Table data:",
   id: @state.id,
   state: @state.state,
-  abbrev: @state.abbrev,
-  code: @state.code,
+  median_household_income: @state.median_household_income,
+  share_unemployed_seasonal: @state.share_unemployed_seasonal,
+  share_population_in_metro_areas: @state.share_population_in_metro_areas,
+  share_population_with_high_school_degree: @state.share_population_with_high_school_degree,
 }
